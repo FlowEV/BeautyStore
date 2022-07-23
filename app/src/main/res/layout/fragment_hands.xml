@@ -21,10 +21,9 @@
             android:id="@+id/firstCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Block 1"
+            android:text="ECOOKIN \n hand cream"
             android:gravity="center"
             android:textColor="@color/black"
-            android:textSize="30dp"
             android:layout_below="@+id/fristImage"/>
 
         <ImageView
@@ -32,107 +31,202 @@
             android:layout_toRightOf="@+id/fristImage"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/cream_one">
+            android:layout_marginStart="40dp"
+            app:srcCompat="@drawable/cream_two">
         </ImageView>
 
         <TextView
             android:id="@+id/secondCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Block 2"
-            android:gravity="center"
-            android:textColor="@color/black"
-            android:textSize="30dp"
+            android:layout_below="@+id/secondImage"
             android:layout_marginStart="40dp"
             android:layout_toRightOf="@+id/firstCard"
-            android:layout_below="@+id/secondImage"
-            />
+            android:gravity="center"
+            android:text="MERBLISS \n wedding day"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/thirdImage"
+            android:layout_toRightOf="@+id/secondImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="40dp"
+            app:srcCompat="@drawable/cream_three">
+        </ImageView>
 
         <TextView
             android:id="@+id/thirdCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Block 3"
+            android:text="HOSA \n hand cream"
             android:gravity="center"
             android:textColor="@color/black"
-            android:textSize="30dp"
             android:layout_marginStart="40dp"
             android:layout_toRightOf="@+id/secondCard"
+            android:layout_below="@+id/thirdImage"
             />
+
+        <ImageView
+            android:id="@+id/fourImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cream_four"
+            android:layout_below="@+id/firstCard">
+        </ImageView>
 
         <TextView
             android:id="@+id/fourCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Block 4"
+            android:text="FELDCHER \nsos-protection"
             android:gravity="center"
             android:textColor="@color/black"
-            android:textSize="30dp"
-            android:layout_below="@+id/firstCard"
+            android:layout_below="@+id/fourImage"
             />
+
+        <ImageView
+            android:id="@+id/fiveImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cream_five"
+            android:layout_below="@+id/secondCard"
+            android:layout_toRightOf="@+id/fourImage"
+            android:layout_marginStart="40dp"
+            >
+        </ImageView>
 
         <TextView
             android:id="@+id/fiveCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Block 5"
+            android:text="BOTANY\n ESSENTIALS hand "
             android:gravity="center"
             android:textColor="@color/black"
-            android:textSize="30dp"
             android:layout_toRightOf="@+id/fourCard"
             android:layout_marginStart="40dp"
-            android:layout_below="@+id/secondCard"
+            android:layout_below="@+id/fiveImage"
             />
+
+        <ImageView
+            android:id="@+id/sixImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cream_six"
+            android:layout_below="@+id/thirdCard"
+            android:layout_toRightOf="@+id/fiveImage"
+            android:layout_marginStart="40dp"
+            >
+        </ImageView>
 
         <TextView
             android:id="@+id/sixthCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Block 6"
+            android:text="BOTANY\n lotion hand"
             android:gravity="center"
             android:textColor="@color/black"
-            android:textSize="30dp"
-            android:layout_below="@+id/thirdCard"
+            android:layout_below="@+id/sixImage"
             android:layout_toRightOf="@+id/fiveCard"
             android:layout_marginStart="40dp"
             />
+
+
+        <ImageView
+            android:id="@+id/sevenImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cream_six"
+            android:layout_below="@+id/fourCard"
+            >
+        </ImageView>
 
         <TextView
             android:id="@+id/sevenCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Block 7"
+            android:text="ZERO microsyn\n phmb 20"
             android:gravity="center"
             android:textColor="@color/black"
-            android:textSize="30dp"
-            android:layout_below="@+id/fourCard"
+            android:layout_below="@+id/sevenImage"
             />
+
+        <ImageView
+            android:id="@+id/eightImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cream_seven"
+            android:layout_below="@+id/fiveCard"
+            android:layout_toRightOf="@+id/sevenImage"
+            android:layout_marginStart="40dp"
+            >
+        </ImageView>
 
         <TextView
             android:id="@+id/eightCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Block 8"
+            android:text="FRUDIA squeeze\ntherapy mango"
             android:gravity="center"
             android:textColor="@color/black"
-            android:textSize="30dp"
-            android:layout_below="@+id/fiveCard"
+            android:layout_below="@+id/eightImage"
             android:layout_toRightOf="@+id/sevenCard"
             android:layout_marginStart="40dp"
             />
+
+        <ImageView
+            android:id="@+id/nineImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cream_eight"
+            android:layout_below="@+id/sixthCard"
+            android:layout_toRightOf="@+id/eightImage"
+            android:layout_marginStart="40dp"
+            >
+        </ImageView>
 
         <TextView
             android:id="@+id/nineCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Block 9"
+            android:text="FRUDIA squeeze\ntherapy peach"
             android:gravity="center"
             android:textColor="@color/black"
-            android:textSize="30dp"
-            android:layout_below="@+id/sixthCard"
+            android:layout_below="@+id/nineImage"
             android:layout_toRightOf="@+id/fiveCard"
             android:layout_marginStart="40dp"
             />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:layout_below="@+id/eightCard"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="0dp">
+
+            <TextView
+                android:id="@+id/finalPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Final order price:" />
+
+            <TextView
+                android:id="@+id/countablePrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 0 $"
+                android:layout_below="@+id/finalPrice"
+                android:layout_marginStart="40dp"></TextView>
+
+            <Button
+                android:id="@+id/addToCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Card"
+                android:layout_below="@+id/countablePrice"/>
+
+        </RelativeLayout>
 
     </RelativeLayout>
 
