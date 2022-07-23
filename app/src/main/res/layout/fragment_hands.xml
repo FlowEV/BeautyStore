@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HandsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fristImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cream_one">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/firstCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Block 1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_below="@+id/fristImage"/>
+
+        <ImageView
+            android:id="@+id/secondImage"
+            android:layout_toRightOf="@+id/fristImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cream_one">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/secondCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Block 2"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginStart="40dp"
+            android:layout_toRightOf="@+id/firstCard"
+            android:layout_below="@+id/secondImage"
+            />
+
+        <TextView
+            android:id="@+id/thirdCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Block 3"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginStart="40dp"
+            android:layout_toRightOf="@+id/secondCard"
+            />
+
+        <TextView
+            android:id="@+id/fourCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Block 4"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_below="@+id/firstCard"
+            />
+
+        <TextView
+            android:id="@+id/fiveCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Block 5"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_toRightOf="@+id/fourCard"
+            android:layout_marginStart="40dp"
+            android:layout_below="@+id/secondCard"
+            />
+
+        <TextView
+            android:id="@+id/sixthCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Block 6"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_below="@+id/thirdCard"
+            android:layout_toRightOf="@+id/fiveCard"
+            android:layout_marginStart="40dp"
+            />
+
+        <TextView
+            android:id="@+id/sevenCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Block 7"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_below="@+id/fourCard"
+            />
+
+        <TextView
+            android:id="@+id/eightCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Block 8"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_below="@+id/fiveCard"
+            android:layout_toRightOf="@+id/sevenCard"
+            android:layout_marginStart="40dp"
+            />
+
+        <TextView
+            android:id="@+id/nineCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Block 9"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_below="@+id/sixthCard"
+            android:layout_toRightOf="@+id/fiveCard"
+            android:layout_marginStart="40dp"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>

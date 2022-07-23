@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Alena/AndroidStudioProjects/BeautyStore/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Alena/AndroidStudioProjects/BeautyStore/app/src/main/res/layout/fragment_body.xml" value="0.6708780795957043" />
+        <entry key="..\:/Users/Alena/AndroidStudioProjects/BeautyStore/app/src/main/res/layout/fragment_face.xml" value="0.5390625" />
+        <entry key="..\:/Users/Alena/AndroidStudioProjects/BeautyStore/app/src/main/res/layout/fragment_hands.xml" value="0.33" />
         <entry key="..\:/Users/Alena/AndroidStudioProjects/BeautyStore2/app/src/main/res/layout/activity_main.xml" value="0.259375" />
       </map>
     </option>
