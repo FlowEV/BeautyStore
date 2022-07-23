@@ -14,26 +14,26 @@
             android:id="@+id/fristImage"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/cream_one">
-        </ImageView>
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/cream_one"></ImageView>
 
         <TextView
             android:id="@+id/firstCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ECOOKIN \n hand cream"
+            android:layout_below="@+id/fristImage"
             android:gravity="center"
-            android:textColor="@color/black"
-            android:layout_below="@+id/fristImage"/>
+            android:text="ECOOKIN \n hand cream"
+            android:textColor="@color/black" />
 
         <ImageView
             android:id="@+id/secondImage"
-            android:layout_toRightOf="@+id/fristImage"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginStart="40dp"
-            app:srcCompat="@drawable/cream_two">
-        </ImageView>
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@+id/fristImage"
+            app:srcCompat="@drawable/cream_two"></ImageView>
 
         <TextView
             android:id="@+id/secondCard"
@@ -48,154 +48,136 @@
 
         <ImageView
             android:id="@+id/thirdImage"
-            android:layout_toRightOf="@+id/secondImage"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginStart="40dp"
-            app:srcCompat="@drawable/cream_three">
-        </ImageView>
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@+id/secondImage"
+            app:srcCompat="@drawable/cream_three"></ImageView>
 
         <TextView
             android:id="@+id/thirdCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="HOSA \n hand cream"
-            android:gravity="center"
-            android:textColor="@color/black"
+            android:layout_below="@+id/thirdImage"
             android:layout_marginStart="40dp"
             android:layout_toRightOf="@+id/secondCard"
-            android:layout_below="@+id/thirdImage"
-            />
+            android:gravity="center"
+            android:text="HOSA \n hand cream"
+            android:textColor="@color/black" />
 
         <ImageView
             android:id="@+id/fourImage"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/cream_four"
-            android:layout_below="@+id/firstCard">
-        </ImageView>
+            android:layout_below="@+id/firstCard"
+            app:srcCompat="@drawable/cream_four"></ImageView>
 
         <TextView
             android:id="@+id/fourCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="FELDCHER \nsos-protection"
-            android:gravity="center"
-            android:textColor="@color/black"
             android:layout_below="@+id/fourImage"
-            />
+            android:gravity="center"
+            android:text="FELDCHER \nsos-protection"
+            android:textColor="@color/black" />
 
         <ImageView
             android:id="@+id/fiveImage"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/cream_five"
             android:layout_below="@+id/secondCard"
-            android:layout_toRightOf="@+id/fourImage"
             android:layout_marginStart="40dp"
-            >
-        </ImageView>
+            android:layout_toRightOf="@+id/fourImage"
+            app:srcCompat="@drawable/cream_five"></ImageView>
 
         <TextView
             android:id="@+id/fiveCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BOTANY\n ESSENTIALS hand "
-            android:gravity="center"
-            android:textColor="@color/black"
-            android:layout_toRightOf="@+id/fourCard"
-            android:layout_marginStart="40dp"
             android:layout_below="@+id/fiveImage"
-            />
+            android:layout_marginStart="40dp"
+            android:layout_toRightOf="@+id/fourCard"
+            android:gravity="center"
+            android:text="BOTANY\n ESSENTIALS hand "
+            android:textColor="@color/black" />
 
         <ImageView
             android:id="@+id/sixImage"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/cream_six"
             android:layout_below="@+id/thirdCard"
-            android:layout_toRightOf="@+id/fiveImage"
             android:layout_marginStart="40dp"
-            >
-        </ImageView>
+            android:layout_toRightOf="@+id/fiveImage"
+            app:srcCompat="@drawable/cream_six"></ImageView>
 
         <TextView
             android:id="@+id/sixthCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BOTANY\n lotion hand"
-            android:gravity="center"
-            android:textColor="@color/black"
             android:layout_below="@+id/sixImage"
-            android:layout_toRightOf="@+id/fiveCard"
             android:layout_marginStart="40dp"
-            />
+            android:layout_toRightOf="@+id/fiveCard"
+            android:gravity="center"
+            android:text="BOTANY\n lotion hand"
+            android:textColor="@color/black" />
 
 
         <ImageView
             android:id="@+id/sevenImage"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/cream_six"
             android:layout_below="@+id/fourCard"
-            >
-        </ImageView>
+            app:srcCompat="@drawable/cream_six"></ImageView>
 
         <TextView
             android:id="@+id/sevenCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ZERO microsyn\n phmb 20"
-            android:gravity="center"
-            android:textColor="@color/black"
             android:layout_below="@+id/sevenImage"
-            />
+            android:gravity="center"
+            android:text="ZERO microsyn\n phmb 20"
+            android:textColor="@color/black" />
 
         <ImageView
             android:id="@+id/eightImage"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/cream_seven"
             android:layout_below="@+id/fiveCard"
-            android:layout_toRightOf="@+id/sevenImage"
             android:layout_marginStart="40dp"
-            >
-        </ImageView>
+            android:layout_toRightOf="@+id/sevenImage"
+            app:srcCompat="@drawable/cream_seven"></ImageView>
 
         <TextView
             android:id="@+id/eightCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="FRUDIA squeeze\ntherapy mango"
-            android:gravity="center"
-            android:textColor="@color/black"
             android:layout_below="@+id/eightImage"
-            android:layout_toRightOf="@+id/sevenCard"
             android:layout_marginStart="40dp"
-            />
+            android:layout_toRightOf="@+id/sevenCard"
+            android:gravity="center"
+            android:text="FRUDIA squeeze\ntherapy mango"
+            android:textColor="@color/black" />
 
         <ImageView
             android:id="@+id/nineImage"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/cream_eight"
             android:layout_below="@+id/sixthCard"
-            android:layout_toRightOf="@+id/eightImage"
             android:layout_marginStart="40dp"
-            >
-        </ImageView>
+            android:layout_toRightOf="@+id/eightImage"
+            app:srcCompat="@drawable/cream_eight"></ImageView>
 
         <TextView
             android:id="@+id/nineCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="FRUDIA squeeze\ntherapy peach"
-            android:gravity="center"
-            android:textColor="@color/black"
             android:layout_below="@+id/nineImage"
-            android:layout_toRightOf="@+id/fiveCard"
             android:layout_marginStart="40dp"
-            />
+            android:layout_toRightOf="@+id/fiveCard"
+            android:gravity="center"
+            android:text="FRUDIA squeeze\ntherapy peach"
+            android:textColor="@color/black" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -215,16 +197,17 @@
                 android:id="@+id/countablePrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" 0 $"
                 android:layout_below="@+id/finalPrice"
-                android:layout_marginStart="40dp"></TextView>
+                android:layout_marginStart="40dp"
+                android:text=" 0 $"></TextView>
 
+            <!-- Перенести кнопку в мейн-->
             <Button
                 android:id="@+id/addToCard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Add to Card"
-                android:layout_below="@+id/countablePrice"/>
+                android:layout_below="@+id/countablePrice"
+                android:text="Add to Card" />
 
         </RelativeLayout>
 
